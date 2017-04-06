@@ -21,9 +21,23 @@
 							<builder id="cdt.managedbuild.target.gnu.builder.base.1889592826" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1044227267" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1718849583" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1950237082" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/local/mpich-3.2/include"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/Projects/GrossDiffFlame/petsc-2.2.1/include"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/Projects/GrossDiffFlame/petsc-2.2.1/bmake/linux-gnu"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ARKTAT/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1851889543" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1451469575" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="gnu.c.compiler.option.include.paths.1612358866" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/local/mpich-3.2/include"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/Projects/GrossDiffFlame/petsc-2.2.1/include"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/Projects/GrossDiffFlame/petsc-2.2.1/bmake/linux-gnu"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ARKTAT/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1972169312" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1018521605" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
@@ -34,21 +48,21 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.base.329464114" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.209991743" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="../"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/local/mpich-3.2/include"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/Projects/GrossDiffFlame/petsc-2.2.1/include"/>
+									<listOptionValue builtIn="false" value="/home/bbojko/Projects/GrossDiffFlame/petsc-2.2.1/bmake/linux-gnu"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ARKTAT/include}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.377593925" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="src|include|reaction_rates|numerics|kinetics|material|eos|transport|parser" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="eos"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="kinetics"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="material"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="numerics"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="parser"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="reaction_rates"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="transport"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

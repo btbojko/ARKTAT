@@ -8,13 +8,15 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-
-#include <src/material/test_function.cpp>
+#include <include/material/test_function.h>
 
 using namespace std;
+using namespace ARKTAT;
 
 int main(void) {
 	Box box1;
+//	Box* box1 = new Box();
+//	box1 -> setLength(2.);
 	box1.setLength(2.);
     box1.setHeight(3.);
     box1.setDepth(4.);
