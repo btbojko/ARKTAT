@@ -14,12 +14,12 @@ class Box
 {
 public:
 	Box();
-	~Box();
+	virtual ~Box();
 
-	 double getVolume(void) ;//  const = 0;
-	  void   setLength(double);// const = 0;
-	 void   setHeight(double);// const = 0;
-	 void   setDepth(double) ;// const = 0;
+	double getVolume(void) ;//  const = 0;
+	void   setLength(double);// const = 0;
+	void   setHeight(double);// const = 0;
+	void   setDepth(double) ;// const = 0;
 
 private:
 	double length;

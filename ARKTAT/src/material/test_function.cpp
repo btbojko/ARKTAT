@@ -1,14 +1,17 @@
 #include <iostream>
-#include <material/test_function.h>
+#include <include/material/test_function.h>
 
 using namespace std;
 
 namespace ARKTAT
 {
 
-Box::Box(void){
-	height = 1; length = 1; depth =1;
-	std::cout << "Box is created" << std::endl;
+Box::Box(void):length{1},height{1}, depth{1} {
+	cout << "Box is created" << endl;
+}
+
+Box::~Box(){
+	cout << "Box is destroyed!" << endl;
 }
 
 double Box::getVolume(void) {
